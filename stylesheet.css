@@ -1,0 +1,128 @@
+/* removing default styles */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: helvetica;
+	-webkit-user-select:none;
+}
+
+::-webkit-scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* styling header div */
+#header{
+	background-color: #5AAC7B;
+	border-bottom: 1px solid #332F3E;
+	overflow: auto;
+}
+/* styling main heading(h1) inside the header div */
+h1{
+	/*border: 1px solid red;*/
+	margin: 15px auto;
+	width: 1110px;
+	font-size: 50px;
+	font-family: 'Slabo 27px', serif;
+	color: #332F3E;
+}
+
+
+/*=============================================================*/
+
+
+
+/* styling gallery div */
+#gallery{
+	/*border: 1px solid red;*/
+	margin: 20px auto;
+	padding: 15px;
+	width: 1200px;
+	height: 470px;
+	border-radius: 10px;
+	background-color: #34302D;
+	box-shadow: 8px 8px 6px rgba(0,0,0,0.5);
+	overflow: auto;
+}
+#gallery > ul{
+	/*border: 1px solid red;*/
+	width: 1120px;
+	margin: 0 auto;
+}
+#gallery > ul > li{
+	/*border: 1px solid red;*/
+	margin: 10px;
+	display: inline-block;
+	box-shadow: 0 2px 5px 1px black;
+}
+/* styling images inside the unorderlist */
+#gallery > ul > li > img{
+	width: 255px;
+	height: 150px;
+	display: block;
+}
+#gallery > ul > li > div{
+	background-color: #616161;
+	padding: 0 10px 0 10px;
+}
+#gallery > ul > li > div > span{
+	text-align: center;
+	margin: 0 25px;
+	color: #fff;
+	font-size: 12px;
+}
+
+
+#gallery > ul > li > img:hover{
+	cursor: pointer;
+}
+#gallery > ul > li > div > span:hover{
+	cursor: pointer;
+}
+
+
+
+/*=============================================================*/
+
+
+
+
+/* styling footer  */
+#footer{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #5AAC7B;
+	border-top: 1px solid #332F3E;
+	border-bottom-left-radius
+}
+/* styling paragraph(p) inside the footer  */
+#footer > p{
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	width: 400px;
+	font-size: 16px;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	color: #332F3E;
+}
